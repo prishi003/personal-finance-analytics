@@ -1,9 +1,9 @@
-# 💰 Personal Finance Tracker - MERN Stack Application
+#  Personal Finance Tracker - MERN Stack Application
 
 A comprehensive web-based personal finance management application built with the MERN stack (MongoDB, Express.js, React.js, and Node.js). Track your expenses, manage income, and gain valuable insights into your spending patterns with beautiful visualizations and analytics.
 
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Project Description](#project-description)
 - [Features](#features)
@@ -16,7 +16,7 @@ A comprehensive web-based personal finance management application built with the
 - [Contributing](#contributing)
 - [License](#license)
 
-## 📖 Project Description
+##  Project Description
 
 The Personal Finance Tracker is a full-stack web application designed to help individuals and families manage their finances effectively. It provides an intuitive interface for tracking daily expenses, monitoring income, categorizing transactions, and analyzing spending patterns through comprehensive visualizations and reports.
 
@@ -27,16 +27,16 @@ The Personal Finance Tracker is a full-stack web application designed to help in
 3. **Transaction Management** - Enable users to create, update, and delete financial transactions and categories
 4. **Generate Reports** - Create comprehensive reports based on custom date ranges and categories
 
-## ✨ Features
+##  Features
 
-### 🔐 User Authentication & Authorization
+###  User Authentication & Authorization
 - Secure user registration and login system
 - JWT-based authentication
 - Avatar customization for user profiles
 - Protected routes and API endpoints
 - Session management with secure token storage
 
-### 💳 Transaction Management
+###  Transaction Management
 - **Add Transactions** - Record income and expenses with detailed information
 - **Transaction Types** - Support for both credit (income) and debit (expense) transactions
 - **Categories** - Organize transactions by custom categories
@@ -44,7 +44,7 @@ The Personal Finance Tracker is a full-stack web application designed to help in
 - **CRUD Operations** - Create, read, update, and delete transactions
 - **Transaction Filtering** - Filter by date range, category, and transaction type
 
-### 📊 Enhanced Analytics & Visualizations
+###  Enhanced Analytics & Visualizations
 - **Scatter Plot Chart** - Visualize expenses scattered over days in a selected month
 - **Monthly Expenditure Bar Chart** - View monthly spending trends for any year
 - **Category-wise Doughnut Chart** - Analyze spending distribution across categories
@@ -56,21 +56,21 @@ The Personal Finance Tracker is a full-stack web application designed to help in
 - **Date Range Filtering** - Custom date range selection for analytics
 - **Interactive Charts** - Built with Chart.js for responsive and interactive visualizations
 
-### 🎨 User Interface
+###  User Interface
 - **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
 - **Modern UI** - Built with React Bootstrap and Material-UI components
 - **Particle Background** - Beautiful animated background using tsparticles
 - **Toast Notifications** - User-friendly notifications for actions
 - **Loading States** - Smooth loading indicators and spinners
 
-### 🔒 Security Features
+###  Security Features
 - Password hashing with bcrypt
 - JWT token-based authentication
 - CORS protection
 - Helmet.js for security headers
 - Input validation and sanitization
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React.js** (v18.2.0) - UI library
@@ -108,7 +108,7 @@ The Personal Finance Tracker is a full-stack web application designed to help in
 - **Backend:** Render
 - **Database:** MongoDB Atlas (Cloud)
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -116,7 +116,7 @@ The Personal Finance Tracker is a full-stack web application designed to help in
 - MongoDB database (local or MongoDB Atlas)
 
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Expense-Tracker-App-main/
