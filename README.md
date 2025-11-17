@@ -1,179 +1,179 @@
+# 💰 Personal Finance Tracker - MERN Stack Application
 
-# Personal Finance Tracker using MERN Stack
-
-### Live Website: https://main.d1sj7cd70hlter.amplifyapp.com/
-
-### Vercel Link: https://expense-tracker-app-three-beryl.vercel.app/
-
-## Project Description:
-
-    The Personal Finance Tracker is a web-based application designed to assist users in tracking and managing their daily expenses, income, and financial goals. This system is built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) to create a scalable, responsive, and user-friendly application.
-
-## Objectives:
-
-    1. Simplify personal finance tracking for individuals and families.
-
-    2. Provide detailed insights into spending patterns and income trends to enable better financial management.
-
-    3. Offer a platform for users to create, update, and delete financial transactions and categories.
-
-    4. Generate comprehensive reports and visualizations based on user-defined time periods and categories.
-
-## Features
+A comprehensive web-based personal finance management application built with the MERN stack (MongoDB, Express.js, React.js, and Node.js). Track your expenses, manage income, and gain valuable insights into your spending patterns with beautiful visualizations and analytics.
 
 
-- User Authentication and Authorization:
+## 📋 Table of Contents
 
-    Allow users to sign up and log in to their personal accounts using secure authentication mechanisms.
-Implement role-based access control for administrative tasks.
+- [Project Description](#project-description)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Environment Variables](#environment-variables)
+- [Project Structure](#project-structure)
+- [API Endpoints](#api-endpoints)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-- Expense and Category Management:
+## 📖 Project Description
 
-    Enable users to create, update, and delete expense entries and categories.
-Track expenses by date, category, and description.
-Support attaching receipts or other relevant documents to expense entries.
+The Personal Finance Tracker is a full-stack web application designed to help individuals and families manage their finances effectively. It provides an intuitive interface for tracking daily expenses, monitoring income, categorizing transactions, and analyzing spending patterns through comprehensive visualizations and reports.
 
-- Dashboard and Reporting:
+### Key Objectives
 
-    Provide a visual dashboard displaying an overview of the user's expenses, including total expenses, expenses by category, and recent transactions.
+1. **Simplify Finance Tracking** - Make personal finance management accessible and easy for everyone
+2. **Provide Insights** - Offer detailed analytics and visualizations to understand spending patterns
+3. **Transaction Management** - Enable users to create, update, and delete financial transactions and categories
+4. **Generate Reports** - Create comprehensive reports based on custom date ranges and categories
 
-    Generate reports based on selected date ranges and categories, displaying pie charts and bar graphs to help users understand their spending patterns.
-    
+## ✨ Features
 
-- Responsive User Interface:
+### 🔐 User Authentication & Authorization
+- Secure user registration and login system
+- JWT-based authentication
+- Avatar customization for user profiles
+- Protected routes and API endpoints
+- Session management with secure token storage
 
-    Design a clean, responsive user interface that works seamlessly across desktop, tablet, and mobile devices.
-    
-    Utilize React.js for building reusable UI components and managing state effectively.
+### 💳 Transaction Management
+- **Add Transactions** - Record income and expenses with detailed information
+- **Transaction Types** - Support for both credit (income) and debit (expense) transactions
+- **Categories** - Organize transactions by custom categories
+- **Date Tracking** - Track transactions with specific dates
+- **CRUD Operations** - Create, read, update, and delete transactions
+- **Transaction Filtering** - Filter by date range, category, and transaction type
+
+### 📊 Enhanced Analytics & Visualizations
+- **Scatter Plot Chart** - Visualize expenses scattered over days in a selected month
+- **Monthly Expenditure Bar Chart** - View monthly spending trends for any year
+- **Category-wise Doughnut Chart** - Analyze spending distribution across categories
+- **Summary Cards** - Quick overview of:
+  - Total transactions count
+  - Total income
+  - Total expenses
+  - Net balance
+- **Date Range Filtering** - Custom date range selection for analytics
+- **Interactive Charts** - Built with Chart.js for responsive and interactive visualizations
+
+### 🎨 User Interface
+- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
+- **Modern UI** - Built with React Bootstrap and Material-UI components
+- **Particle Background** - Beautiful animated background using tsparticles
+- **Toast Notifications** - User-friendly notifications for actions
+- **Loading States** - Smooth loading indicators and spinners
+
+### 🔒 Security Features
+- Password hashing with bcrypt
+- JWT token-based authentication
+- CORS protection
+- Helmet.js for security headers
+- Input validation and sanitization
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **React.js** (v18.2.0) - UI library
+- **React Router DOM** (v6.10.0) - Client-side routing
+- **React Bootstrap** (v2.7.3) - UI component library
+- **Bootstrap** (v5.2.3) - CSS framework
+- **Material-UI Icons** (v5.11.16) - Icon library
+- **Chart.js** (v4.5.0) & **react-chartjs-2** (v5.3.0) - Data visualization
+- **React DatePicker** (v4.11.0) - Date selection component
+- **Moment.js** (v2.29.4) - Date manipulation
+- **Axios** (v1.3.5) - HTTP client
+- **React Toastify** (v9.1.2) - Toast notifications
+- **TSParticles** (v2.9.3) - Particle animation effects
+- **Unique Names Generator** (v4.7.1) - Avatar name generation
+
+### Backend
+- **Node.js** - Runtime environment
+- **Express.js** (v4.18.2) - Web framework
+- **MongoDB** - NoSQL database
+- **Mongoose** (v7.0.3) - MongoDB object modeling
+- **JWT** (v9.0.0) - Authentication tokens
+- **Bcrypt** (v5.1.0) - Password hashing
+- **Helmet** (v6.1.5) - Security middleware
+- **Morgan** (v1.10.0) - HTTP request logger
+- **CORS** (v2.8.5) - Cross-origin resource sharing
+- **Dotenv** (v16.0.3) - Environment variable management
+- **Validator** (v13.9.0) - Input validation
+
+### Database
+- **MongoDB** - Document-based NoSQL database
+- **Mongoose ODM** - Schema definition and validation
+
+### Deployment
+- **Frontend:** AWS Amplify
+- **Backend:** Render
+- **Database:** MongoDB Atlas (Cloud)
+
+## 🚀 Installation
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+- MongoDB database (local or MongoDB Atlas)
 
 
-## Technical Architecture:
+## 📁 Project Structure
 
-- Frontend:
-
-    Utilize React.js for building the user interface, tsparticle library for awesome background effect and used other libraries like unique-names-generator, react-datepicker, moment
-
-    Implement responsive design using CSS frameworks like Bootstrap and Material-Icons.
-
-- Backend:
-
-    Use Node.js and Express.js to build a RESTful API for handling client requests and serving as the application's backend.
-
-    Implement authentication and authorization using JSON Web Tokens (JWT) and middleware to protect endpoints.
-
-- Database:
-
-    Store all data, including user information, expense entries, and categories, in MongoDB, a NoSQL database.
-
-    Implement Mongoose ORM for schema definition and validation.
-
-- Deployment:
-
-    Deploy the application to a cloud provider like AWS and render.
-    frontend has deployed on AWS and backend on Render.
-
-    Set up Continuous Integration and Continuous Deployment (CI/CD) pipelines for automated builds and deployments.
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/Priyanshu9898/Expense-Tracker-App
+```
+Expense-Tracker-App-main/
+├── backend/
+│   ├── controllers/
+│   │   ├── transactionController.js
+│   │   └── userController.js
+│   ├── DB/
+│   │   └── Database.js
+│   ├── models/
+│   │   ├── TransactionModel.js
+│   │   └── UserSchema.js
+│   ├── Routers/
+│   │   ├── Transactions.js
+│   │   └── userRouter.js
+│   ├── config/
+│   │   └── config.env
+│   ├── app.js
+│   └── package.json
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.js
+│   │   │   ├── Spinner.js
+│   │   │   └── ...
+│   │   ├── Pages/
+│   │   │   ├── Auth/
+│   │   │   │   ├── Login.js
+│   │   │   │   └── Register.js
+│   │   │   ├── Home/
+│   │   │   │   ├── Home.js
+│   │   │   │   ├── Analytics.js
+│   │   │   │   ├── EnhancedAnalytics.js
+│   │   │   │   └── ...
+│   │   │   └── Avatar/
+│   │   │       └── setAvatar.js
+│   │   ├── utils/
+│   │   │   └── ApiRequest.js
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+│
+└── README.md
 ```
 
-Go to the project directory
+## 🔌 API Endpoints
 
-```bash
-  cd Expense-Tracker-App
-```
+### Authentication
+- `POST /api/auth/register` - Register a new user
+- `POST /api/auth/login` - Login user
+- `GET /api/auth/logout` - Logout user
 
-Go to the frontend directory and Install dependencies
-
-```bash
-  cd frontend
-```
-```bash
-  npm install
-```
-
-Go to the backend directory and Install dependencies
-
-```bash
-  cd backend
-```
-```bash
-  npm install
-```
-
-Start the frontend server
-
-```bash
-  npm start
-```
-
-
-Start the backend server
-
-```bash
-  npm run dev
-```
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file in backend folder
-
-create config folder and add config.env file in it and all all env variables there.
-
-`MONGO_URL` : Your MongoDB Connection String
-
-`PORT`: PORT number
-
-
-## Tech Stack
-
-**Client:** React, Redux, react-bootstrap, Material Icons, tsparticles
-
-**Server:** Node, Express
-
-**Database:** MongoDB
-
-
-## Screenshots
-
-![App Screenshot](https://i.postimg.cc/6qLR3WNt/Expense-Management-System-Brave-19-04-2023-11-08-53.png)
-
-![App Screenshot](https://i.postimg.cc/DynLNXqZ/Expense-Management-System-Brave-19-04-2023-11-08-59.png)
-
-![App Screenshot](https://i.postimg.cc/Dy6L3wgc/Expense-Management-System-Brave-19-04-2023-11-15-46.png)
-
-![App Screenshot](https://i.postimg.cc/13YF47bn/Expense-Management-System-Brave-19-04-2023-11-15-54.png)
-
-![App Screenshot](https://i.postimg.cc/rwpWV2Z2/Expense-Management-System-Brave-19-04-2023-11-16-01.png)
-
-## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-
-
-
-
-
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Priyanshu9898/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priyanshumalaviya/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Priyanshu2281)
-[![Medium](https://img.shields.io/badge/medum-1DA1F2?style=for-the-badge&logo=medium&logoColor=black)](https://medium.com/@priyanshumalaviya9210)
-
-## Demo
-
-Insert gif or link to demo
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+### Transactions
+- `GET /api/v1/transactions` - Get all transactions for authenticated user
+- `POST /api/v1/transactions` - Create a new transaction
+- `PUT /api/v1/transactions/:id` - Update a transaction
+- `DELETE /api/v1/transactions/:id` - Delete a transaction
 
